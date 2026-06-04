@@ -100,19 +100,6 @@ def get_chatbot_response(user_query):
 
 print("Chatbot response function defined!")
 
-# Simple Chatbot Interaction Loop
-#print("Hello! I'm your FAQ Chatbot. Type 'exit' to end the conversation.")
-
-#while True:
-#    user_input = input("You: ")
-#    if user_input.lower() == 'exit':
-#        print("Chatbot: Goodbye!")
-#        break
-
-#    response = get_chatbot_response(user_input)
-#    print(f"Chatbot: {response}")
-
-import os
 from flask import Flask, request, render_template_string
 
 # Define the HTML template as a string
